@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request, redirect
 
-app = Flask(_name_)
+app = Flask(__name__)
 
 # Mesajları geçici bir listede tutuyoruz (veritabanı yerine)
 mesajlar = []
